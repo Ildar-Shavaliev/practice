@@ -1,4 +1,4 @@
-package ru.shavaliev.task1;
+package ru.shavaliev.dop;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,9 +10,9 @@ import java.io.IOException;
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("task1.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("dop.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Задание 1");
+        stage.setTitle("Дополнительное задание");
         stage.setScene(scene);
         stage.show();
     }
