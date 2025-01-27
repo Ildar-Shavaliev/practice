@@ -32,11 +32,11 @@ public class task6 {
             N = N / 100;
             M = M % 10;
             B = ((B % 100) - M) / 10;
-            FresultLabel.setText("" + M);
-            SLabel.setText("" + B);
-            TLabel.setText("" + N);
             N = 0;
         }
+        FresultLabel.setText("" + M);
+        SLabel.setText("" + B);
+        TLabel.setText("" + N);
     }
 
 }
